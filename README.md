@@ -10,4 +10,4 @@ GitHub link to page: (https://puppyburp.github.io/)
 
 The following image demonstrates the application functionality:
 
-![portfolio](/assets/portfolio-demo.png)
+![portfolio](/assets/images/portfolio-demo.png)
