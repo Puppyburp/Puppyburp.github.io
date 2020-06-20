@@ -1,0 +1,196 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@500&display=swap');
+
+/* global styling */
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* basic styling */
+body {
+  background-color:rgb(4, 69, 148);
+  color: #FFF;
+}
+
+strong {
+  color: #F75A56;
+}
+
+/* nav styling */
+nav {
+  box-shadow: 4px 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bg-light {
+  background-color: rgb(3, 64, 139)!important;
+}
+
+.navbar {
+  padding: 1em;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+}
+
+nav a {
+  color: #F75A56;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #F75A56;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #FFF;
+  font-weight: bold;
+}
+
+/* index page styling */
+.jumbotron {
+  background-color: transparent;
+  text-align: center;
+}
+
+.display-4 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* main styling */
+
+.homepage {
+  background-image: url("/assets/images/fozz.gif");
+  background-repeat: no-repeat;
+  background-size: 400px auto;
+  background-position: bottom left;
+  height: 75vh;
+}
+
+main {
+  padding: 2em;
+}
+
+.secondary {
+  background-color: #FFF;
+  color: #F75A56;
+}
+
+.secondary p {
+  color: rgb(51, 51, 51);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+}
+
+
+.image { 
+  padding: 0 0 1.5em 0;
+}
+
+.jennifer {
+  max-width: 6em;
+}
+
+.folio-btn {
+  min-width: 100px;
+}
+
+li {
+  list-style-type: none;
+  color: #000;
+}
+
+li:before {
+  content: "\2605";
+  left: -8px;
+  position: relative;
+  font-size: 12px;
+}
+
+.project-links {
+  padding-bottom: 2em;;
+}
+
+/* footer styling */
+
+footer {
+  box-shadow: 4px 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-footer {
+  background-color: rgb(3, 64, 139);
+  padding: 4em 0 2em 0;
+  margin: 0;
+}
+
+.secondary-cards {
+  justify-content: center;
+}
+
+.overlay img {
+  opacity: 1;
+  transition: 1s ease;
+}
+  
+.overlay img:hover {
+  opacity: 0.7;
+  transition: 1s ease;
+}
+
+
+/* portfolio styles */
+
+.card-title {
+  background-color: rgba(255, 240, 242, 0.9);
+  width: 100%;
+  text-align: center;
+  padding: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: bold;
+  color: rgb(53, 53, 53);
+}
+
+.card-img-overlay {
+  padding: 0;
+  top: 75%;
+}
+
+.code-examples {
+  padding-top: 3em;
+}
+
+/* media queries */
+
+@media screen and (max-width: 640px) {
+
+.navbar-expand-md .navbar-nav {
+  -ms-flex-direction: row;
+  flex-direction: row;  
+  justify-items: center;
+} 
+.navbar-nav .nav-link {
+  padding: .5rem 1rem;
+}
+
+.navbar-nav {
+  justify-content: center;
+}
+
+}
