@@ -4,7 +4,7 @@ Updated professional portfolio website, featuring design and code project exampl
 
 ------------------------------------
 
-GitHub link to page: (https://puppyburp.github.io/)
+GitHub link to page: (https://puppyburp.github.io/portfolio/)
 
 ------------------------------------
 
