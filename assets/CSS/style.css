@@ -194,5 +194,7 @@ footer {
 }
 .homepage {
   background-position: 0px 250px;
-  background-size: 300px auto;}
+  background-size: 300px auto;
+  height: 100vh;
+}
 }
