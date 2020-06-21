@@ -73,7 +73,7 @@ nav a {
 /* main styling */
 
 .homepage {
-  background-image: url("assets/images/fozz.gif");
+  background-image: url("../images/fozz.gif");
   background-repeat: no-repeat;
   background-size: 400px auto;
   background-position: bottom left;
